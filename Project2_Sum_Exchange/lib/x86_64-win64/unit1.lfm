@@ -1,0 +1,86 @@
+object Form1: TForm1
+  Left = 256
+  Height = 537
+  Top = 130
+  Width = 696
+  Caption = 'Form1'
+  ClientHeight = 537
+  ClientWidth = 696
+  OnCreate = FormCreate
+  LCLVersion = '1.6.4.0'
+  object Label1: TLabel
+    Left = 48
+    Height = 15
+    Top = 40
+    Width = 36
+    Caption = 'APP ID'
+    ParentColor = False
+  end
+  object Edit1: TEdit
+    Left = 112
+    Height = 23
+    Top = 32
+    Width = 80
+    TabOrder = 0
+    Text = 'Edit1'
+  end
+  object Edit2: TEdit
+    Left = 48
+    Height = 23
+    Top = 114
+    Width = 80
+    TabOrder = 1
+    Text = 'Edit2'
+  end
+  object Edit3: TEdit
+    Left = 48
+    Height = 23
+    Top = 152
+    Width = 80
+    TabOrder = 2
+    Text = 'Edit3'
+  end
+  object Button1: TButton
+    Left = 48
+    Height = 25
+    Top = 184
+    Width = 80
+    Caption = 'Sum'
+    OnClick = Button1Click
+    TabOrder = 3
+  end
+  object Edit4: TEdit
+    Left = 362
+    Height = 23
+    Top = 71
+    Width = 80
+    Enabled = False
+    TabOrder = 4
+    Text = 'Edit4'
+  end
+  object Label2: TLabel
+    Left = 57
+    Height = 15
+    Top = 93
+    Width = 82
+    Caption = 'Integers to sum'
+    ParentColor = False
+  end
+  object Label3: TLabel
+    Left = 362
+    Height = 15
+    Top = 54
+    Width = 32
+    Caption = 'Result'
+    ParentColor = False
+  end
+  object Button2: TButton
+    Left = 48
+    Height = 25
+    Top = 220
+    Width = 75
+    Caption = 'Subtract'
+    OnClick = Button2Click
+    TabOrder = 5
+  end
+end
